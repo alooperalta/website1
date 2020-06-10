@@ -1,10 +1,8 @@
 /*body{background-color: #66BFBF}*/
 .top-container {
-  background-color: #E4F9F5;
-  padding-left: 20px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  margin-bottom: 20px;
+/*background-color: #E4F9F5;*/
+
+  margin: 0;
 }
 
 .bottom-cloud{
@@ -24,8 +22,14 @@
   margin: 50px;
 }
 
+.col{
+  background-color: #E4F9F5;
+  margin: 0;
+}
+
 .b{
   color: grey;
+  padding: 5px;
 }
 
 .robot-img{
@@ -50,10 +54,24 @@
   height: 40px;
   width:40px;
   margin-right: 35px;
+  padding-left: 10px;
 }
 
 .footer-link{
-  margin: 5px;
+  margin: 0;
+  background-color: #E4F9F5;
+}
+
+.bottom-container{
+  background-color: #E4F9F5;
+  margin-bottom: 0;
+
+}
+
+.clr{
+  background-color: #E4F9F5;
+  margin: 0;
+  padding: 10px;
 }
 
 
@@ -67,7 +85,7 @@ body {
 
 hr{
   margin-top: 50px;
-  border-color: #ffffff;
+  border-color: grey;
   border-width: 7px;
   border-style: none;
   border-top-style: dotted;
